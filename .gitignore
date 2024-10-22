@@ -1,3 +1,8 @@
+# Please refere to ScanNet official website for the download link
+QSpatial_scannet/download-scannet.py
+QSpatial_scannet/images/
+QSpatial_scannet/scannet_dataset/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

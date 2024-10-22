@@ -78,6 +78,7 @@ class SensorData:
 
 scannet_id_and_frame = {
     'scene0015_00': ['0'],
+    
     'scene0019_00': ['400'],
     'scene0025_00': ['500'],
     'scene0025_02': ['400'],

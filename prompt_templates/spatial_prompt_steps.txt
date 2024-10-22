@@ -1,0 +1,23 @@
+Question: {{ question }}
+
+---
+
+Use the following 4 steps sequentially to answer the question:
+
+Step 1 **Analyze the question**
+
+Step 2 **Identify up to 10 reference scales in the image, ranging from large to small sizes, and list them in the specified format**
+- A reference scale must be typical in size.
+- A reference scale can be the dimensions of an object or an object part.
+- A reference scale must NOT be floor tiles or floor planks.
+- Formulate the reference scales using the format: """The [choose from front-to-back, side-to-side, left-to-right, diameter, height (top to bottom edge), or mounting height (bottom edge to floor)] of [object or object part] is approximately [dimension estimate]."""
+
+Step 3 **Propose a robust step-by-step plan to answer the question by using the reference scales in Step 2**
+- A robust step-by-step plan performs the estimation in a coarse-to-fine manner.
+    - First, use a reliable and large-sized reference scale as the primary reference for estimation.
+    - Then, gradually use a reliable and smaller-sized reference scale for adjustment.
+    - Repeat until the estimation is precise enough.
+- When performing visual comparison, be aware of perspective distortion.
+- Do NOT rely on pixel measurements from the images.
+
+Step 4 **Focus on the image and follow the plan in Step 3 to answer the question**

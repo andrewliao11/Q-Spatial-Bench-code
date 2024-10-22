@@ -1,0 +1,2 @@
+Question: {{ question }}
+Let's thinkg step by step and start by finding good reference objects or object parts in the image.

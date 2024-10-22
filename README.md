@@ -3,7 +3,7 @@
 
 Q-Spatial Bench is a benchmark designed to measure the **quantitative spatial reasoning** 📏 in large vision-language models.
 
-🔥The paper associated with Q-Spatial Bench is accepted by EMNLP 2024 main track!
+🔥 The paper associated with Q-Spatial Bench is accepted by EMNLP 2024 main track!
 
 - Our paper: *Reasoning Paths with Reference Objects Elicit Quantitative Spatial Reasoning in Large Vision-Language Models* [[arXiv link](https://arxiv.org/abs/2409.09788)]
 - Project website: [[link]()]
@@ -45,15 +45,14 @@ cd <REPO_ROOT>/QSpatial_scannet
 python download_and_render_scannet_images.py
 ```
 
-## Example Prompt Templates
 
+## Iterate over the Dataset
+
+We provide an example ipython notebook under `examples/iterate_over_dataset.ipynb`
 
 ## Evaluation
 
-In our paper, we measure the performance in success rate by thresholding the maximum ratio between an estimation and a ground truth value. We provide a simple ipython notebook `evaluation_helper.ipynb` to compute the success rate.
-
-
-
+We provide an example ipython notebook under `examples/evaluate_success_rate.ipynb`
 
 
 # Citation

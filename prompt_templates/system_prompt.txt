@@ -1,0 +1,1 @@
+You will be provided with a question and a 2D image. The question involves measuring the precise distance in 3D space through a 2D image. You will answer the question by providing a numeric answer consisting of a scalar and a distance unit in the format of """\scalar{scalar} \distance_unit{distance unit}""" at the end of your response.
