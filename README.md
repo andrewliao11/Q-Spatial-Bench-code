@@ -6,7 +6,7 @@ Q-Spatial Bench is a benchmark designed to measure the **quantitative spatial re
 🔥 The paper associated with Q-Spatial Bench is accepted by EMNLP 2024 main track!
 
 - Our paper: *Reasoning Paths with Reference Objects Elicit Quantitative Spatial Reasoning in Large Vision-Language Models* [[arXiv link](https://arxiv.org/abs/2409.09788)]
-- Project website: [[link]()]
+- Project website: [[link](https://andrewliao11.github.io/spatial_prompt/)]
 
 
 
